@@ -3,7 +3,7 @@ SVG vector drawing tool
 
 qDraw is a simple, easy to use web-based vector drawing and annotation tool, but with advanced features typically found in desktop drawing packages. It is completely written in JavaScript and requires no plugs to be added to a website. Internally qDraw uses SVG to draw and store the drawings with direct saving and loading to your Google Docs account.
 
-There is a demo version at: www.stagetools.com/visualeyes/pie.htm
+There is a demo version at: www.stagetools.com/visualeyes/qdraw.htm
 
 License
 
