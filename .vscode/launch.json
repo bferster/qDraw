@@ -5,16 +5,16 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:3000/qdraw/qdraw.htm",
-            "webRoot": "${workspaceRoot}/qdraw"
+            "name": "Chrome",
+            "url": "http://localhost/qdraw.htm",
+            "webRoot": "${workspaceRoot}"
         },
         {
             "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
             "port": 9222,
-            "webRoot": "${workspaceRoot}/qdraw"
+            "webRoot": "${workspaceRoot}"
         }
     ]
 }
