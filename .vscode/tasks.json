@@ -1,0 +1,20 @@
+{
+    "version": "0.1.0",
+    "command": "echo",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "echoCommand": true,
+    "suppressTaskName": true,
+    "tasks": [
+        {
+       "echoCommand": true,
+       "taskName": "exp",
+       "command": "task.express.portNumber"
+        },
+        {
+            "taskName": "bye",
+            "args": ["Good Bye"]
+        }
+    ]
+}

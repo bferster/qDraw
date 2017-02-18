@@ -181,9 +181,7 @@ QDraw.prototype.DrawMenu=function()											// SHOW DRAWING TOOL MENU
 
 QDraw.prototype.HandleMessage=function(msg)									// REACT TO DRAW EVENT
 {
-	var _this=this;																// Save context
 	var vv,v=msg.split("|");													// Split into parts
-	
 	if ((v[1] == "qdraw") && (v[0] == "click")) {								// A click in main menu
 		if (v[2])																// If not center
 			this.pie.ops.slices[v[2]].def=v[3];									// Set new default
