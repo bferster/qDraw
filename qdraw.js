@@ -514,9 +514,9 @@ QDraw.prototype.onKeyDown=function(e)										// KEY DOWN HANDLER
 
 function Gdrive()															// CONSTRUCTOR
 {
-	this.clientId="81792849751-1c76v0vunqu0ev9fgqsfgg9t2sehcvn2.apps.googleusercontent.com";	// Google client id
+	this.clientId="453812393680-8tb3isinl1bap0vqamv45cc5d9c7ohai.apps.googleusercontent.com";	// Google client id
 	this.scope="https://www.googleapis.com/auth/drive";							// Scope of access
-	this.key="AIzaSyAVjuoRt0060MnK_5_C-xenBkgUaxVBEug";							// Google API key
+	this.key="AIzaSyD0jrIlONfTgL-qkfnMTNdjizsNbLBBjTk";							// Google API key
 	this.contentType="image/svg+xml";											// SVG mime type
 	this.folderName="QDrawings";												// Name of drawings folder
 	this.folderId="";															// Id of drawings folder
